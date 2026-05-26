@@ -755,7 +755,7 @@
 
     .proj-img-wrap {
       width: 100%;
-      height: 190px;
+      height: 160px;
       overflow: hidden;
       background: var(--bg2);
       position: relative;
@@ -892,6 +892,9 @@
       background: var(--white);
     }
 
+    b{
+      font-weight: bold;
+    }
     .contact-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -1222,6 +1225,9 @@
         padding: 5px 10px;
       }
     }
+    .nav-logo img{
+      height: 35px; ;
+    }
   </style>
 </head>
 
@@ -1230,7 +1236,7 @@
   <!-- ═══ NAV ═══ -->
   <nav id="navbar">
     <div class="nav-inner">
-      <div class="nav-logo">Yadhav<span>.</span></div>
+      <div class="nav-logo"><img src="image/favicon.png"/></div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#journey">Journey</a></li>
@@ -1369,7 +1375,7 @@
             <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span
                 class="proj-tag">JS</span></div>
             <div class="proj-name">Buffy Store</div>
-            <p class="proj-desc">Buffy Store is an online fashion store founded and managed by Usama Mukthar EK. The store offers a wide collection of
+            <p class="proj-desc"><b>Buffy Store</b> is an online fashion store founded and managed by <b>Usama Mukthar EK</b>. The store offers a wide collection of
             premium-quality clothing including shirts, pants, jerseys, and many other fashion essentials. Buffy Store focuses on
             stylish designs, comfort, and quality, with different sizes available to suit everyone’s needs.</p>
             <a href="#" class="proj-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
@@ -1392,13 +1398,37 @@
             <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span
                 class="proj-tag">JS</span></div>
             <div class="proj-name">Doctor Movement</div>
-            <p class="proj-desc">Doctor Movement Physiotherapy Clinic is a professional physiotherapy center located in Chathannoor, dedicated to
-            providing advanced and compassionate rehabilitation care. Led by Dr. Dary Santhosh, the clinic offers expert treatments
+            <p class="proj-desc"><b>Doctor Movement Physiotherapy Clinic</b>  is a professional physiotherapy center located in Chathannoor, dedicated to
+            providing advanced and compassionate rehabilitation care. Led by <b>Dr. Dary Santhosh</b>, the clinic offers expert treatments
             using modern physiotherapy techniques and evidence-based practices.</p>
             <a href="#" class="proj-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
           </div>
         </div>
 
+
+
+                <!-- card 3 -->
+                
+                <div class="project-card reveal">
+                  <div class="proj-img-wrap">
+                    <div class="proj-placeholder">
+                      <img src="image/MathauraX.png" />
+                    </div>
+                    <div class="proj-hover-overlay">
+                      <a href="MathauraX/index.html" target="_blank" class="proj-hover-btn"><i
+                          class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                    </div>
+                  </div>
+                  <div class="proj-body">
+                    <div class="proj-tags"><span class="proj-tag">HTML</span><span class="proj-tag">CSS</span><span
+                        class="proj-tag">JS</span></div>
+                    <div class="proj-name">MathauraX</div>
+                    <p class="proj-desc"><b>MathauraX</b> is an innovative educational platform designed by <b>Yadhav Sreekanth</b> to transform the way students learn mathematics. Our mission is
+                    to make complex mathematical concepts accessible, engaging, and enjoyable for learners of all levels.
+                   </p>
+                    <a href="#" class="proj-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
 
       </div>
     </div>
@@ -1467,12 +1497,12 @@
 
   <div class="fg">
     <label>Your Name</label>
-    <input type="text" name="name" placeholder="Hareesh" required>
+    <input type="text" name="name" placeholder="kiran" required>
   </div>
 
   <div class="fg">
-    <label>Email</label>
-    <input type="email" name="email" placeholder="hareesh@example.com" required>
+    <label>Your Email</label>
+    <input type="email" name="email" placeholder="Kiran@example.com" required>
   </div>
 
   <div class="fg">
